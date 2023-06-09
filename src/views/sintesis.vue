@@ -3,8 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 A continuación, se describe el tema principal del Componente Formativo CF17 Ejecución del mantenimiento de productos electrónicos, con los aspectos relativos a la ejecución del mantenimiento de productos electrónicos, donde se exponen desde los tipos de fallas típicas en un circuito electrónico hasta las generalidades del mantenimiento preventivo de un equipo nuevo que se pone en funcionamiento y la utilización de las pruebas  y su análisis para lograr determinar el estado real de los componentes. Además de establecer el mantenimiento preventivo como plan de contingencia para evitar problemas a corto, mediano y largo plazo.
 
     .row.justify-content-center
       .col-lg-10.mb-5
