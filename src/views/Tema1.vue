@@ -223,7 +223,7 @@
         p Dentro de los procedimientos de diagnóstico, el más importante es el establecido por el mismo fabricante, pues fue quien diseñó, produjo y ensambló la tarjeta o producto electrónico. Generalmente, establece los parámetros para su correspondiente inspección y mantenimiento. Por lo tanto, este protocolo no es genérico y tiende a ser una información reservada de la misma empresa que sólo se maneja dentro de los centros de servicio de mantenimiento o a sus propios técnicos, quienes trabajan en las áreas de mantenimiento, calidad o servicio post venta y garantía.
         p Un pequeño ejemplo del procedimiento de diagnóstico aplicando la técnica de las curvas V-I puede observarse a continuación con un circuito sencillo.
 
-    p ########### GALERIA ############
+    p ########### GALERIA V2 ############
 
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido
