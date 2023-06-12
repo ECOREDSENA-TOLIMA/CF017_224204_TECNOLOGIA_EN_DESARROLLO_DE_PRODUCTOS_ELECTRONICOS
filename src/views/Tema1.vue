@@ -8,24 +8,24 @@
       h1 Análisis de pruebas del circuito electrónico
 
     .row.justify-content-center.align-items-center
-      .col-lg-5.col-12
+      .col-lg-5.col-12(data-aos="zoom-out-right")
         figure
           img(src='@/assets/curso/temas/tema1/tema1-01.png', alt='Análisis de pruebas del circuito electrónico')
       .col-lg-7.col-12
         .row.justify-content-center.align-items-center
-          .col-12.px-0
+          .col-12.px-0(data-aos="fade-up")
             .cajon.color-primario
               .row.justify-content-center.align-items-center.py-0.mt-1
                 .col-12.mt-4.mb-4.px-5
                   p.mb-lg-0.lg-mb-5 Cuando se practica una prueba a cualquier tipo de sistema, el objetivo de esta es determinar el estado o el correcto funcionamiento del mismo. Para ello, es necesario analizar los datos obtenidos en la prueba ejecutada y contar con toda la documentación correspondiente del diseño del producto para poder determinar los parámetros normales de funcionamiento y las posibles anomalías en cada caso. 
-          .col-12.mt-3
+          .col-12.mt-3(data-aos="fade-up")
             .row.justify-content-center.align-items-center
               .col-sm-2.col-md-2.col-6.px-3
                 img(src='@/assets/curso/temas/tema1/tema1-02.svg', alt='')
               .col-sm-10.col-md-10.col-12.py-0
                 p.mb-0 El análisis de pruebas también puede arrojar indicadores de proceso los cuales brindan información de errores o anomalías presentadas dentro de la producción que no pertenecen al diseño como tal.
     
-    .row.justify-content-center.align-items-center.mt-5.mb-5
+    .row.justify-content-center.align-items-center.mt-5.mb-5(data-aos="flip-left")
       .col-sm-2.col-md-1.col-6.py-0
         img(src='@/assets/curso/temas/tema1/tema1-03.svg', alt='')
       .col-sm-10.col-md-11.col-12.py-0
@@ -34,11 +34,11 @@
           p.titulo.pb-0.mb-0 <b>Figura 1.</b> <i>Tipos de fallas</i>
 
     .row.justify-content-center.align-items-center.mb-5.py-4(style="background-color:#D8F7F2")
-      .col-12.col-md-6.px-4
+      .col-12.col-md-6.px-4(data-aos="fade-up")
         img(src='@/assets/curso/temas/tema1/tema1-20.svg', alt='')
-      .col-12.col-md-6.px-4
+      .col-12.col-md-6.px-4(data-aos="fade-up")
         img(src='@/assets/curso/temas/tema1/tema1-21.svg', alt='')
-      .col-md-9.cajon.color-naranja
+      .col-md-9.cajon.color-naranja(data-aos="zoom-in")
         p.p-3.mb-0 A nivel eléctrico podemos encontrar tres tipos fallas que se pueden  observar dependiendo de la característica presentada dentro de la media.
       .col-md-12.px-0.mx-0.pt-4
         .row.justify-content-center
@@ -62,26 +62,26 @@
                 .tarjeta-slide__contenido.p-3.p-xl-2.py-3
                   p.text-center Fugas de corriente o de voltaje por anomalías dentro de los componentes como tal o la presencia de resistencias eléctricas debido a residuos contaminantes producto del ensamble.
 
-    .row 
-      .col-12.px-0
+    .row.mb-4
+      .col-12.px-0.mb-4(data-aos="zoom-out")
         p A la hora de determinar el funcionamiento de un sistema o componente, básicamente se pueden practicar dos pruebas una de encendido sin carga y otra de encendido con carga, esto si el sistema alimenta algún tipo de carga; sin embargo, se puede considerar un tercer tipo de prueba que se ejecuta sin energizar la tarjeta como tal, a este tipo de pruebas se le conoce como prueba VI.
-      .col-12.px-0
+      .col-12.px-0(data-aos="zoom-in-left")
         .cajon.color-primario
           .row.justify-content-center.align-items-center.py-0.mt-1
             .col-12.mt-4.mb-4.px-5
               p.mb-lg-0.lg-mb-5 Estas pruebas se ejecutan en sistemas extremadamente sensibles a las descargas electrostáticas o donde no se tiene la fuente adecuada para su energización, a veces se les llama pruebas aisladas.
 
-      .col-12.mt-4.px-0
+      .col-12.mt-4.px-0(data-aos="zoom-in-left")
         p Para las pruebas de funcionamiento es necesario tener presente los siguientes aspectos.          
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8.col-12
+      .col-lg-8.col-12(data-aos="zoom-in-up")
         .tarjeta.color-acento-botones.p-4
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center
               .col-10.col-md-10
                 figure
-                  img(src='@/assets/curso/temas/tema1/tema1-07.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/tema1-07.png', alt='Documentación técnica')
               .col-10.col-md-10.mb-2.mb-md-0
                 h4.mt-3 Documentación técnica
                 p Tener la documentación técnica referente al diseño y el manual de operación y mantenimiento del mismo, debido a que estos documentos brindan los parámetros de funcionamiento normal y una guía para poder tomar las medidas correspondientes. 
@@ -89,7 +89,7 @@
             .row.justify-content-center.align-items-center.my-lg-4
               .col-md-10.col-10
                 figure
-                  img(src='@/assets/curso/temas/tema1/tema1-08.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/tema1-08.png', alt='Puntos de prueba')
               .col-md-10.col-10.mb-2.mb-md-0
                 h4.mt-3 Puntos de prueba
                 p Es necesario que el diseño cuente con un mínimo de puntos de prueba, los cuales son dispuestos por el diseñador de acuerdo a la naturaleza de su diseño. Se debe seguir rigurosamente los pasos sugeridos en cada prueba para poder ejecutarla correctamente y determinar el funcionamiento de la tarjeta sin averiarla.
@@ -97,37 +97,37 @@
             .row.justify-content-center.align-items-center.my-lg-4
               .col-md-10.col-10
                 figure
-                  img(src='@/assets/curso/temas/tema1/tema1-09.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/tema1-09.png', alt='Medidas a tomar')
               .col-md-10.col-10.mb-2.mb-md-0
                 h4.mt-3 Medidas a tomar
                 p Tomando en cuenta la naturaleza del diseño como tal, será necesario, en cada caso, tomar medidas de voltaje y de corriente, de acuerdo con las especificaciones dadas dentro de la documentación técnica; sin embargo, no son las únicas variables eléctricas para medir en casos especiales, se pueden llegar a tomar medidas de frecuencia, potencia y temperatura.
 
-    .row.mt-4
+    .row.mt-5.mb-5(data-aos="zoom-in")
       .col-12
         p En el momento de ejecutar el mantenimiento a un equipo electrónico no se puede dejar de lado los criterios de aceptabilidad electrónica demarcados en las normas internacionales de calidad y en las políticas de calidad de cada empresa, por ejemplo, la limpieza de las tarjetas luego de la ejecución del mantenimiento, así como los parámetros que deban ser ajustados o calibrados en cada equipo, dependiendo de sus características y su naturaleza propia.
 
-    .row.justify-content-center.align-items-center
-      .col-lg-5.col-12
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5.col-12(data-aos="flip-left")
         figure
           img(src='@/assets/curso/temas/tema1/tema1-10.png', alt='Mantenimiento a un equipo electrónico')
       .col-lg-7.col-12
         .row.justify-content-center.align-items-center
-          .col-12.px-0
+          .col-12.px-0(data-aos="fade-up")
             .cajon.color-primario
               .row.justify-content-center.align-items-center.py-0.mt-1
                 .col-12.mt-4.mb-4.px-5
                   p.mb-lg-0.lg-mb-5 Cuando una empresa desarrolla y produce un producto electrónico, dependiendo de su diseño característico, determina una serie de parámetros que debe cumplir el producto para cumplir con la calidad deseada; estos son en parte los criterios de aceptación de producto. 
-          .col-12.mt-3
+          .col-12.mt-3(data-aos="fade-up")
             .row.justify-content-center.align-items-center
               .col-sm-2.col-md-2.col-6.px-3
-                img(src='@/assets/curso/temas/tema1/tema1-11.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/tema1-11.svg', alt='Ahora bien, cuando hay un reclamo de calidad por parte de un consumidor')
               .col-sm-10.col-md-10.col-12.py-0
                 p.mb-0 Ahora bien, cuando hay un reclamo de calidad por parte de un consumidor, es necesario ejecutar algún tipo de mantenimiento al equipo aplicando los mismos criterios de calidad.
     
     Separador
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1 Codificación
-    p.mb-5 La codificación tiene por su parte dos aspectos principales a tratar.
+    p.mb-5(data-aos="zoom-in") La codificación tiene por su parte dos aspectos principales a tratar.
    
     .row.justify-content-center
       .col-lg-10
@@ -148,104 +148,104 @@
               p Este control de los repuestos a través de los números de parte es fundamental para la gestión de mantenimiento y operación de una empresa, ya que permite un control preciso de sus inventarios, ya sea que estas sean cambiadas en un mantenimiento preventivo o en un mantenimiento correctivo. 
     
     
-    .cajon.color-primario.mt-4
+    .cajon.color-primario.mt-4.mb-4(data-aos="zoom-out-down")
       .row.justify-content-center.align-items-center.py-0.mt-1
-        .col-12.mt-4.mb-4.px-5
-          p.mb-lg-0.lg-mb-5 Este control de partes permite predecir y mantener al día los repuestos requeridos en cada momento para los sistemas. De tal forma que no se tengan paradas en plantas.
+        .col-12.mt-4.mb-4.px-5(data-aos="zoom-in-down")
+          p.mb-lg-0.lg-mb-4 Este control de partes permite predecir y mantener al día los repuestos requeridos en cada momento para los sistemas. De tal forma que no se tengan paradas en plantas.
 
     Separador
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2 Relación causa - efecto
-    p Al ejecutar cualquier proceso de mantenimiento es necesario llevar una trazabilidad del proceso que permita determinar las causas de las fallas más comunes de los sistemas a analizar para así prevenirlas en el futuro. Una de las más utilizadas a nivel industrial es el diagrama de causa-efecto, que hace referencia a una técnica japonesa, también conocida como espina de pescado, por la forma particular de su diseño.
-    p.mb-5 Este esquema parte de un problema (efecto) y se buscan, desde diferentes ámbitos interdisciplinarios, las posibles causas.
+    p(data-aos="zoom-in") Al ejecutar cualquier proceso de mantenimiento es necesario llevar una trazabilidad del proceso que permita determinar las causas de las fallas más comunes de los sistemas a analizar para así prevenirlas en el futuro. Una de las más utilizadas a nivel industrial es el diagrama de causa-efecto, que hace referencia a una técnica japonesa, también conocida como espina de pescado, por la forma particular de su diseño.
+    p.mb-5(data-aos="zoom-in") Este esquema parte de un problema (efecto) y se buscan, desde diferentes ámbitos interdisciplinarios, las posibles causas.
 
     .row.justify-content-center.align-items-center
-      .col-lg-10.col-12
+      .col-lg-10.col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
           p.titulo.pb-0.mb-0 <b>Figura 2.</b> <i>Estructura del diagrama causa y efecto</i>
-      .col-lg-10.col-12
+      .col-lg-10.col-12(data-aos="zoom-in-up")
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-14.svg', alt='Estructura del diagrama causa y efecto')
+          img(src='@/assets/curso/temas/tema1/tema1-16.svg', alt='Estructura del diagrama causa y efecto')
       .col-12.mt-4
-        p En cada una de sus ramas, se colocan seis áreas que generalmente son: hombre, máquina, entorno, material, método y medida. Dentro de cada una de estas, se pueden introducir subcategorías, dependiendo de la profundidad del análisis del problema, aunque se recomienda no sobrepasar de tres.
+        p(data-aos="fade-left") En cada una de sus ramas, se colocan seis áreas que generalmente son: hombre, máquina, entorno, material, método y medida. Dentro de cada una de estas, se pueden introducir subcategorías, dependiendo de la profundidad del análisis del problema, aunque se recomienda no sobrepasar de tres.
 
-      .col-lg-10.col-12
+      .col-lg-10.col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
           p.titulo.pb-0.mb-0 <b>Figura 3.</b> <i>Diagrama Causa efecto con sus áreas</i>
-      .col-lg-10.col-12
+      .col-lg-10.col-12(data-aos="zoom-in-up")
         figure
           img(src='@/assets/curso/temas/tema1/tema1-15.svg', alt='Diagrama Causa efecto con sus áreas')
-      .col-12.mt-4
+      .col-12.mt-4(data-aos="zoom-in")
         p A la hora de desarrollar este esquema, es muy productivo que se esté acompañado de un equipo interdisciplinario que colabore en la construcción del diagrama aportando lluvias de ideas y analizando, en cada caso, las causas del porqué estas aportan al problema.
 
-      .col-lg-10.col-12
+      .col-lg-10.col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
           p.titulo.pb-0.mb-0 <b>Figura 4.</b> <i>Causa principal y subcategorías</i>
-      .col-lg-10.col-12
+      .col-lg-10.col-12(data-aos="zoom-in-up")
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-16.svg', alt='Causa principal y subcategorías')
+          img(src='@/assets/curso/temas/tema1/tema1-14.svg', alt='Causa principal y subcategorías')
       .col-12.mt-4
-        p Finalmente, cuando se considere que el diagrama está completo, este se convierte en insumo para futura mejoras en procesos de diseño, producción y mantenimiento.
-        p Aunque no está relacionado directamente con el diagrama de causa efecto, es recomendable establecer un protocolo, en general en el proceso de mantenimiento para llevar así una trazabilidad. De tal manera que, a la hora de aplicar este tipo de diagramas, estos tengan mayor efectividad, Asimismo el protocolo se alimenta de los resultados de la aplicación de estos diagramas, ya que estos orientan al personal técnico para buscar las fallas, entendiendo las causas más comunes.
+        p(data-aos="zoom-in") Finalmente, cuando se considere que el diagrama está completo, este se convierte en insumo para futura mejoras en procesos de diseño, producción y mantenimiento.
+        p(data-aos="zoom-in") Aunque no está relacionado directamente con el diagrama de causa efecto, es recomendable establecer un protocolo, en general en el proceso de mantenimiento para llevar así una trazabilidad. De tal manera que, a la hora de aplicar este tipo de diagramas, estos tengan mayor efectividad, Asimismo el protocolo se alimenta de los resultados de la aplicación de estos diagramas, ya que estos orientan al personal técnico para buscar las fallas, entendiendo las causas más comunes.
 
     Separador
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.3 Localización de fallas y diagnóstico
-    p.mb-5 La localización de fallas es un proceso esencial dentro del mantenimiento, la cual debe realizarse de manera minuciosa para no dejar escapar ningún detalle, ni tampoco provocar más fallas. En la localización de fallas intervienen varios factores para tener en cuenta: el primero y más importante un dominio amplio de la instrumentación e interpretación de medidas de variables eléctricas dentro de circuitos electrónicos, el segundo un conocimiento específico del diseño al cual se le está haciendo el mantenimiento, así como sus funcionalidades. Esta información parte de la documentación proporcionada por el fabricante, en algunos casos se puede tener un protocolo de mantenimiento, en otros se puede tener incluso un manual de ensamble y mantenimiento, el cual debe ser respetado y de conocimiento para el personal técnico.
+    p.mb-5(data-aos="zoom-in") La localización de fallas es un proceso esencial dentro del mantenimiento, la cual debe realizarse de manera minuciosa para no dejar escapar ningún detalle, ni tampoco provocar más fallas. En la localización de fallas intervienen varios factores para tener en cuenta: el primero y más importante un dominio amplio de la instrumentación e interpretación de medidas de variables eléctricas dentro de circuitos electrónicos, el segundo un conocimiento específico del diseño al cual se le está haciendo el mantenimiento, así como sus funcionalidades. Esta información parte de la documentación proporcionada por el fabricante, en algunos casos se puede tener un protocolo de mantenimiento, en otros se puede tener incluso un manual de ensamble y mantenimiento, el cual debe ser respetado y de conocimiento para el personal técnico.
 
     .row.justify-content-center.align-items-center
       .col-lg-7.col-12
         .row.justify-content-center.align-items-center
-          .col-12.px-0
+          .col-12.px-0(data-aos="fade-up")
             .cajon.color-primario
               .row.justify-content-center.align-items-center.py-0.mt-1
                 .col-12.mt-4.mb-4.px-5
                   p.mb-lg-0.lg-mb-5 La inspección inicial es una gran aliada a la hora de localizar fallas, permite detectar fallas que a simple vista son perceptibles, detectando síntomas tales como componentes carbonizados cables deteriorados o derretidos, contaminación o suciedad que puede generar problemas de conexión o cortocircuitos bajo condiciones climáticas extremas.
-          .col-12.mt-3
+          .col-12.mt-3(data-aos="fade-up")
             .row.justify-content-center.align-items-center
               .col-sm-2.col-md-2.col-6.px-3
                 img(src='@/assets/curso/temas/tema1/tema1-03.svg', alt='')
               .col-sm-10.col-md-10.col-12.py-0
                 p.mb-0 Una de las técnicas más eficientes en la localización de fallas es la famosa técnica de las curvas V-I, la cual se explica en la siguiente figura 5.
-      .col-lg-5.col-12
+      .col-lg-5.col-12(data-aos="zoom-out-left")
         figure
           img(src='@/assets/curso/temas/tema1/tema1-17.png', alt='Técnicas más eficientes en la localización de fallas')
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10.col-12.mb-4
-        .titulo-sexto.color-acento-contenido.mb-0
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-left")
           p.titulo.pb-0.mb-0 <b>Figura 5.</b> <i>Técnica de las curvas V-I</i>
-      .col-lg-10.col-12.mb-5
+      .col-lg-10.col-12.mb-5(data-aos="zoom-out-down")
         figure
           img(src='@/assets/curso/temas/tema1/tema1-18.svg', alt='Técnica de las curvas V-I')
 
       .col-12.mb-5
-        p Dentro de los procedimientos de diagnóstico, el más importante es el establecido por el mismo fabricante, pues fue quien diseñó, produjo y ensambló la tarjeta o producto electrónico. Generalmente, establece los parámetros para su correspondiente inspección y mantenimiento. Por lo tanto, este protocolo no es genérico y tiende a ser una información reservada de la misma empresa que sólo se maneja dentro de los centros de servicio de mantenimiento o a sus propios técnicos, quienes trabajan en las áreas de mantenimiento, calidad o servicio post venta y garantía.
-        p Un pequeño ejemplo del procedimiento de diagnóstico aplicando la técnica de las curvas V-I puede observarse a continuación con un circuito sencillo.
+        p(data-aos="zoom-in") Dentro de los procedimientos de diagnóstico, el más importante es el establecido por el mismo fabricante, pues fue quien diseñó, produjo y ensambló la tarjeta o producto electrónico. Generalmente, establece los parámetros para su correspondiente inspección y mantenimiento. Por lo tanto, este protocolo no es genérico y tiende a ser una información reservada de la misma empresa que sólo se maneja dentro de los centros de servicio de mantenimiento o a sus propios técnicos, quienes trabajan en las áreas de mantenimiento, calidad o servicio post venta y garantía.
+        p(data-aos="zoom-in") Un pequeño ejemplo del procedimiento de diagnóstico aplicando la técnica de las curvas V-I puede observarse a continuación con un circuito sencillo.
 
     p ########### GALERIA V2 ############
 
     Separador
-    #t_1_4.titulo-segundo.color-acento-contenido
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.4 Instructivos o diagramas
-    p.mb-5 Dependiendo de las políticas de cada compañía, es posible que se genere para cada diseño o cada producto un instructivo con procedimientos detallados tanto para el diagnóstico como para el mantenimiento. Esta documentación generalmente va acompañada de esquemas de diseño, diagramas de disposición de componentes e incluso dibujos pictóricos indicando la correcta conexión de los equipos de medida. Estos instructivos también contienen, dada cierto tipo de falla, la recomendación para su corrección y solución. 
+    p.mb-5(data-aos="fade-left") Dependiendo de las políticas de cada compañía, es posible que se genere para cada diseño o cada producto un instructivo con procedimientos detallados tanto para el diagnóstico como para el mantenimiento. Esta documentación generalmente va acompañada de esquemas de diseño, diagramas de disposición de componentes e incluso dibujos pictóricos indicando la correcta conexión de los equipos de medida. Estos instructivos también contienen, dada cierto tipo de falla, la recomendación para su corrección y solución. 
     
     .row.justify-content-center.align-items-center.mt-5
-      .col-12.col-lg-10
+      .col-12.col-lg-10(data-aos="zoom-out-right")
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-19.png')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4(data-aos="fade-left")
             p.mb-0 Dentro de la documentación y los diagramas es clave ubicar los puntos de prueba o test Point, dispuestos por el diseñador. Para esta clase de procedimientos, los cuales casi siempre están identificados por las siglas TP, los test point, se pueden tener varias formas. Están diseñados específicamente, para tomar medidas de variables eléctricas, algunos típicamente presentan una forma a manera de gancho, con el único propósito, de conectar sondas de equipos como en los osciloscopios.
 
     .row.justify-content-center.align-items-center.mt-5
       .col-12
-        p Eso suele encontrarse en los manuales de mantenimiento proporcionados por los fabricantes a través de flujogramas, los cuales brindan una ruta para el procedimiento. Estos esquemas sirven como una especie de algoritmo para indicar la ruta a seguir dentro del procedimiento, ya que dependiendo del tipo de fallo se implementará una solución particular, dada como tal por el procedimiento.
+        p(data-aos="fade-left") Eso suele encontrarse en los manuales de mantenimiento proporcionados por los fabricantes a través de flujogramas, los cuales brindan una ruta para el procedimiento. Estos esquemas sirven como una especie de algoritmo para indicar la ruta a seguir dentro del procedimiento, ya que dependiendo del tipo de fallo se implementará una solución particular, dada como tal por el procedimiento.
         
-    .cajon.color-primario.mt-4
+    .cajon.color-primario.mt-4(data-aos="zoom-out-down")
       .row.justify-content-center.align-items-center.py-0.mt-1
-        .col-12.mt-4.mb-4.px-5
+        .col-12.mt-4.mb-4.px-5(data-aos="fade-left")
           p.mb-lg-0.lg-mb-5 Existen equipos electrónicos tan complejos, que estos manuales de mantenimiento suelen ser en su mayoría gráficos, presentando los despieces completos del equipo dando un procedimiento minucioso de su desensamble y posterior ensamble dentro del proceso de revisión y mantenimiento al cual está siendo sometido.
 
 
@@ -327,12 +327,12 @@ export default {
   transition: all 0.45s ease
 .nav-holder-1:before
   right: 20px
-  top: 63px
+  top: 83px
   height: 63px
   border-radius: 10px
 .nav-holder-2:before
   right: 95.5%
-  top: 0
+  top: 23px
   height: 63px
   left: 0
   z-index: 998
