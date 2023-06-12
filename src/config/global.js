@@ -197,13 +197,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -211,9 +211,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: '', //'Ángela Rocío Sánchez Ruiz',
+          cargo: 'Experto Temático',
+          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
+        },
+        {
+          nombre: '', //'Miroslava González H.',
+          cargo: 'Diseñador y Evaluador Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: '', //'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: '',
+        },
+        {
+          nombre: '', //'Álix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: '', //'Viviana Esperanza Herrera Quiñones',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Comercio y Servicios',
+        },
+        {
+          nombre: '', //'Rafael Neftalí Lizcano',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: '', //'Darío González',
+          cargo: 'Revisión y Corrección de Estilo',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
       ],
     },
@@ -221,34 +252,44 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Yobani Penagos Mora',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: '', //'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
+        /* {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Animador y Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Sebastián Trujillo Afanador',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        }, */
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Gilberto Naranjo Farfán',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
