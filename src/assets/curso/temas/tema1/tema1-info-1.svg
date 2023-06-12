@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="90" viewBox="0 0 1240 90">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3c0061"/>
+      <stop offset="1" stop-color="#b3009d"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_973503" data-name="Grupo 973503" transform="translate(6833 3293)">
+    <g id="Grupo_973502" data-name="Grupo 973502" transform="translate(-6833 -3362)">
+      <g id="Grupo_49020" data-name="Grupo 49020" transform="translate(0 69)">
+        <g id="Group_1153" data-name="Group 1153">
+          <path id="Recurso_1" data-name="Recurso 1" d="M0,0H1240V90H0Z" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+    <text id="Técnica_de_las_curvas_V-I_" data-name="Técnica de las curvas V-I " transform="translate(-6178 -3271)" fill="#fff" font-size="38" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="28.423" y="36">Técnica de las curvas V-I </tspan></text>
+  </g>
+</svg>

@@ -21,6 +21,48 @@
   .cajon.color-naranja
     background-color: $color-acento-botones
     border-radius: 1rem
+  .img-infografica__card
+    display: none
+  .indicador__container
+    border-radius: 1rem
+    top: 70%
+    left: 77%
+    position: absolute
+    cursor: pointer
+    transform: translate(-50%,-50%)
+  .modal-a__content
+    padding: 0 !important
+  .dialogo-v1
+    background-color: #66FDDE
+    border-radius: 1.5rem
+  .dialogo-v1:before
+    content: ''
+    position: absolute 
+    z-index: -1
+    width: 10px
+    height: 10px
+    left: -38px
+    top: 50px
+    border-top: 70px solid #66FDDE
+    border-right: 23px solid transparent
+    border-left: 22px solid transparent
+    transform: rotate(75deg)
+  .color-custom
+    background-color: transparent
+    display: inline-flex
+    height: 100%
+  .caja-naranja
+    background-color: lighten($color-acento-botones, 22%)
+    border-radius: 1rem
+  @media screen and (min-width: 768px)
+    .text-orientation
+      writing-mode: vertical-lr
+      transform: rotate(180deg)
+  @media screen and (max-width: 767px)
+    .dialogo-v1
+      font-size: 12px
+    .width-div
+      width: 100%
 
 .tema2
   .cajon.color-acento-contenido

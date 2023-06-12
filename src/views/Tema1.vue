@@ -223,7 +223,17 @@
         p(data-aos="zoom-in") Dentro de los procedimientos de diagnóstico, el más importante es el establecido por el mismo fabricante, pues fue quien diseñó, produjo y ensambló la tarjeta o producto electrónico. Generalmente, establece los parámetros para su correspondiente inspección y mantenimiento. Por lo tanto, este protocolo no es genérico y tiende a ser una información reservada de la misma empresa que sólo se maneja dentro de los centros de servicio de mantenimiento o a sus propios técnicos, quienes trabajan en las áreas de mantenimiento, calidad o servicio post venta y garantía.
         p(data-aos="zoom-in") Un pequeño ejemplo del procedimiento de diagnóstico aplicando la técnica de las curvas V-I puede observarse a continuación con un circuito sencillo.
 
-    p ########### GALERIA V2 ############
+    .row.justify-content-center.align-items-center.mt-2
+      .col-12.mb-5(data-aos="zoom-out-down")
+        div(style="position: relative")
+          template
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-info.svg', alt='')
+
+          a.boton.color-acento-botones.indicador__container(@click="modal1 = true; mostrarSlider1 = false")
+            .indicador--click(v-if="mostrarIndicador3")
+            span #[strong Entrar]
+
 
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -248,6 +258,97 @@
         .col-12.mt-4.mb-4.px-5(data-aos="fade-left")
           p.mb-lg-0.lg-mb-5 Existen equipos electrónicos tan complejos, que estos manuales de mantenimiento suelen ser en su mayoría gráficos, presentando los despieces completos del equipo dando un procedimiento minucioso de su desensamble y posterior ensamble dentro del proceso de revisión y mantenimiento al cual está siendo sometido.
 
+    ModalA(:abrir-modal.sync="modal1")
+      .row.m-0
+        .col-12.p-0
+          img(src="@/assets/curso/temas/tema1/tema1-info-1.svg")
+      .row.m-0(v-if="!mostrarSlider1")
+        .col-md-3.d-none.d-md-block
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-info-2.svg')
+        .col-md-9.col-12
+          .row(style="position:relative")
+            .col-12.mb-2.mb-md-0.dialogo-v1.mt-2
+              div.text-center.mt-2.ms-4.me-4 
+                p.mb-0 Un pequeño ejemplo del procedimiento de diagnóstico aplicando la técnica de las curvas V-I puede observarse a continuación con un circuito sencillo, el cual consiste en un amplificador muy simple en emisor común. En la imagen se puede observar este equipo con funcionamiento normal.
+                p Haga clic en el botón y compare el mismo equipo con un mal funcionamiento.
+            .col-11.mt-4.mb-4
+              .row.align-items-center
+                .col-md-1.col-12
+                  a.boton.color-secundario.px-2.py-md-5.py-2.width-div(@mouseover="mostrarIndicador4 = false" @click="hacerVisible(1)")
+                    .indicador--click(v-if="mostrarIndicador4")
+                    strong.text-orientation #[i Buen funcionamiento]
+                .col-lg-10.col-md-9.col-12(v-if="mostrar1")
+                  figure(data-aos="fade-left")
+                    img(src='@/assets/curso/temas/tema1/tema1-info-4.svg')
+                .col-md-1.col-12
+                  a.boton.color-acento-contenido.px-2.py-md-5.py-2.width-div(@click="hacerVisible(2)")
+                    strong.text-orientation #[i Mal funcionamiento]
+                .col-lg-10.col-md-9.col-12(v-if="mostrar2")
+                  figure(data-aos="fade-left")
+                    img(src='@/assets/curso/temas/tema1/tema1-info-5.svg')
+            .col-1
+              a.color-custom.px-2.py-md-5.py-2(@click="MostrarSlider(1)")
+                img(src='@/assets/curso/temas/tema1/tema1-info-6.svg')
+                
+
+
+      .tarjeta.p-4.mb-5(data-aos="zoom-out-up" v-if="mostrarSlider1")
+        SlyderA(tipo="b")
+          .row.m-0
+            .col-md-3.d-none.d-md-block
+              figure
+                img(src='@/assets/curso/temas/tema1/tema1-info-2.svg' style="width:70%")
+            .col-md-9.col-12
+              .row(style="position:relative")
+                .col-12.mb-2.mb-md-0.dialogo-v1.mt-2
+                  div.text-center.mt-2.ms-4.me-4 
+                    p.mb-0 Ahora bien, a continuación se aplicará la técnica V-I a este circuito, la cual tiene como característica principal, que es un procedimiento con el circuito de energizado; generalmente, se aplica una señal AC de muy bajo voltaje, a través de una resistencia de referencia. Luego, se toma como referencia la forma XY, resultante en el osciloscopio, del circuito en perfectas condiciones, y se compara con el circuito al cual se quiere diagnosticar. Al hacer esta medida en varios puntos del circuito, se puede obtener lo que se conoce como una firma digital del mismo. En el momento que se observa una figura que no concuerde con las de referencia del circuito, al funcionar adecuadamente, se puede tener una guía de dónde se encuentra la falla. 
+                
+          .row.m-0
+            .col-md-3.d-none.d-md-block
+              figure
+                img(src='@/assets/curso/temas/tema1/tema1-info-2.svg' style="width:70%")
+            .col-md-9.col-12
+              .row(style="position:relative")
+                .col-12.mb-2.mb-md-0.dialogo-v1.mt-2
+                  div.text-center.mt-2.ms-4.me-4 
+                    p.mb-0 En las siguiente figura se observa la referencia obtenida del circuito funcionando correctamente al cual se le ha inyectado una pequeña señal a través de una resistencia, y como esta referencia cambia en la luego al tener un componente averiado. 
+                  .text-center.mt-4.mb-4
+                    a.boton.color-acento-botones.px-2.py-2(@click="modal2 = true")
+                      strong Ver Prueba 
+
+          .row.m-0
+            .col-md-3.d-none.d-md-block
+              figure
+                img(src='@/assets/curso/temas/tema1/tema1-info-2.svg' style="width:70%")
+            .col-md-9.col-12
+              .row(style="position:relative")
+                .col-12.mb-2.mb-md-0.dialogo-v1.mt-2
+                  div.text-center.mt-2.ms-4.me-4 
+                    p.mb-0 Hoy en día varias empresas, se han dedicado a producir equipos de medida especializados para hacer este tipo de pruebas. Algunos equipos, de los más sofisticados, permiten generar estas firmas digitales sobre los circuitos como un compendio de varias señales respecto a un punto común, que generalmente es tierra en el circuito, pudiendo probar varios puntos a la vez y haciendo más ágil el diagnóstico; por supuesto, estos equipos son de alto costo y sólo industrias de muy alto presupuesto los operan. 
+              .row.justify-content-center.align-items-center.mt-4
+                .col-md-6.col-12
+                  figure
+                    img(src="@/assets/curso/temas/tema1/tema1-info-9.png")
+                .col-md-6.col-12
+                  .caja-naranja.p-3
+                    p.mb-0 En la imagen se aprecia cómo a través del conector, se captura la firma digital de todas las señales provenientes de un integrado, la cual es guardada en un archivo y así poderla comparar con una tarjeta bajo evaluación, la cual requiere ser diagnosticada. Comúnmente se le conoce como equipos de diagnóstico avanzado.
+
+    ModalA(:abrir-modal.sync="modal2")
+      .row.justify-content-center.align-items-center.m-0(style="background-color: #8A008D")
+        .col-md-6.col-12.p-4
+          p(style="color:#FFFFFF") Como se puede observar en el primer circuito se ha inyectado una señal de apenas 1 voltio a 1 kHz de frecuencia, esta es nuestra señal de referencia a la cual es una señal de muy baja potencia, incapaz de generar algún tipo de avería en el objeto. 
+          p(style="color:#FFFFFF") Esta técnica es común dentro de las compañías cuando no se cuenta con documentación suficiente por parte del fabricante y adicionalmente el circuito pues llegar a ser sensible al energizarse sin tener la certeza de cuáles son sus fallas. 
+        .col-md-6.col-12.p-4
+          figure
+            img(src="@/assets/curso/temas/tema1/tema1-info-7.svg")
+      .row.justify-content-center.align-items-center.m-0(style="background-color: rgb(138, 0, 141, 0.8)")
+        .col-md-6.col-12.p-4
+          p(style="color:#FFFFFF") En la segunda imagen se puede observar la misma conexión pero esta vez con un fallo localizado en el transistor. Se observa cómo la curva XY en el osciloscopio cambio de forma. Esta curva es resultante de tomar voltaje de la fuente con respecto al voltaje del punto del circuito que queremos evaluar; el fallo simulador en el transistor es una fuga ubicada entre los pines de emisor y base, la cual provoca que el amplificador presente un incorrecto funcionamiento.
+        .col-md-6.col-12.p-4
+          figure
+            img(src="@/assets/curso/temas/tema1/tema1-info-8.svg")
 
 
 </template>
@@ -257,8 +358,15 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
+    modal1: false,
+    modal2: false,
     mostrarIndicador1: true,
+    mostrarIndicador3: true,
+    mostrarIndicador4: true,
     mostrarIndicador: true,
+    mostrar1: true,
+    mostrar2: false,
+    mostrarSlider1: false,
     // variables de vue
   }),
   mounted() {
@@ -268,6 +376,19 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    hacerVisible(item) {
+      if (item == 1) this.mostrar1 = this.mostrar1 ? false : true
+      else this.mostrar2 = this.mostrar2 ? false : true
+      if (item == 1) this.mostrar2 = false
+      else this.mostrar1 = false
+      console.info([this.mostrar1, this.mostrar2])
+    },
+    MostrarSlider(item) {
+      if (item == 1) this.mostrarSlider1 = true
+      else this.mostrarSlider1 = false
+    },
   },
 }
 </script>
