@@ -171,7 +171,7 @@
 
       .col-lg-10.col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
-          p.titulo.pb-0.mb-0 <b>Figura 3.</b> <i>Diagrama Causa efecto con sus áreas</i>
+          p.titulo.pb-0.mb-0 <b>Figura 3.</b> <i>Diagrama causa efecto con sus áreas</i>
       .col-lg-10.col-12(data-aos="zoom-in-up")
         figure
           img(src='@/assets/curso/temas/tema1/tema1-15.svg', alt='Diagrama Causa efecto con sus áreas')
