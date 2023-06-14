@@ -38,8 +38,8 @@
         img(src='@/assets/curso/temas/tema1/tema1-20.svg', alt='')
       .col-12.col-md-6.px-4(data-aos="fade-up")
         img(src='@/assets/curso/temas/tema1/tema1-21.svg', alt='')
-      .col-md-9.cajon.color-naranja(data-aos="zoom-in")
-        p.p-3.mb-0 A nivel eléctrico podemos encontrar tres tipos fallas que se pueden  observar dependiendo de la característica presentada dentro de la media.
+      .col-md-9.cajon.color-naranja.mt-3(data-aos="zoom-in")
+        p.p-3.mb-0 A nivel eléctrico podemos encontrar #[strong tres tipos de fallas] que se pueden  observar dependiendo de la característica presentada dentro de la media.
       .col-md-12.px-0.mx-0.pt-4
         .row.justify-content-center
           .col-12.col-md-4.col-lg-3.mb-3.mb-xl-0(data-aos="fade-right")
@@ -247,7 +247,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-19.png')})`}"
           )
           .bloque-texto-g__texto.p-4(data-aos="fade-left")
-            p.mb-0 Dentro de la documentación y los diagramas es clave ubicar los puntos de prueba o test Point, dispuestos por el diseñador. Para esta clase de procedimientos, los cuales casi siempre están identificados por las siglas TP, los test point, se pueden tener varias formas. Están diseñados específicamente, para tomar medidas de variables eléctricas, algunos típicamente presentan una forma a manera de gancho, con el único propósito, de conectar sondas de equipos como en los osciloscopios.
+            p.mb-0 Dentro de la documentación y los diagramas es clave ubicar los puntos de prueba o #[i test point], dispuestos por el diseñador. Para esta clase de procedimientos, los cuales casi siempre están identificados por las siglas TP, los #[i test point], se pueden tener varias formas. Están diseñados específicamente, para tomar medidas de variables eléctricas, algunos típicamente presentan una forma a manera de gancho, con el único propósito, de conectar sondas de equipos como en los osciloscopios.
 
     .row.justify-content-center.align-items-center.mt-5
       .col-12

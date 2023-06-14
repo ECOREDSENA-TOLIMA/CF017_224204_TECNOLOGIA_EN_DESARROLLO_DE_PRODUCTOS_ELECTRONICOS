@@ -169,7 +169,7 @@ export default {
         'Es la oposición que presenta un componente o un circuito al paso de la corriente alterna. Esta puede presentar componentes resistivas, capacitivas o inductivas, o las tres.',
     },
     {
-      termino: 'Capacitancias parasitas',
+      termino: 'Capacitancias parásitas',
       significado:
         'Son capacitancias que se forman entre dos elementos que no hacen parte del circuito electrónico, por ejemplo, entre una capa de material contaminante y una parte del cobre las pistas de la tarjeta.',
     },

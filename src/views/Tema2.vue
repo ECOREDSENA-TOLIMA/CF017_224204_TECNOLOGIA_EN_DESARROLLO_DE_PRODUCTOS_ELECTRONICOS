@@ -25,16 +25,16 @@
           img(src="@/assets/curso/temas/tema2/tema2-02.svg", alt="Mantenimiento Correctivo")   
           .tarjeta.col-12.p-4.py-5.color-acento-contenido
             p.mb-0.text-center.mt-4
-              strong #[i Mantenimiento Correctivo]
-            p.text-center implica sacar de funcionamiento una máquina o un equipo para corregir la avería.
+              strong #[i Mantenimiento correctivo]
+            p.text-center Implica sacar de funcionamiento una máquina o un equipo para corregir la avería.
 
       .col-lg-5.col-12.d-flex.mb-lg-0.mb-5(data-aos="fade-left")
         .tarjeta-avatar.col-12
           img(src="@/assets/curso/temas/tema2/tema2-03.svg", alt="Mantenimiento Preventivo")   
           .tarjeta.col-12.p-4.py-5.color-acento-contenido
             p.mb-0.text-center.mt-4
-              strong #[i Mantenimiento Preventivo]
-            p.text-center es una tarea programada, que busca prevenir daños mayores, por tanto toma mucho menos tiempo.
+              strong #[i Mantenimiento preventivo]
+            p.text-center Es una tarea programada que busca prevenir daños mayores, por tanto toma mucho menos tiempo.
 
     .cajon.color-primario.mt-5.mb-5(data-aos="zoom-out-down")
       .row.justify-content-center.align-items-center.py-0.mt-4
