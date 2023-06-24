@@ -211,40 +211,37 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '', //'Ángela Rocío Sánchez Ruiz',
+          nombre: 'Ángela Rocío Sánchez Ruíz',
           cargo: 'Experto Temático',
-          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
+          centro:
+            'Regional Distrito Capital - Centro de Electricidad, Electrónica y Telecomunicaciones',
         },
         {
-          nombre: '', //'Miroslava González H.',
+          nombre: 'Miroslava González Hernández',
           cargo: 'Diseñador y Evaluador Instruccional',
-          centro: 'Centro de Gestión Industrial',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
-          nombre: '', //'Juan Gilberto Giraldo Cortés',
+          nombre: 'Sergio Augusto Ardila Cortes',
           cargo: 'Diseñador Instruccional',
-          centro: '',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: '', //'Álix Cecilia Chinchilla Rueda',
-          cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Gestión Industrial',
-        },
-        {
-          nombre: '', //'Viviana Esperanza Herrera Quiñones',
-          cargo: 'Asesora Metodológica',
-          centro: 'Centro de Comercio y Servicios',
-        },
-        {
-          nombre: '', //'Rafael Neftalí Lizcano',
-          cargo: 'Asesor Pedagógico',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo:
+            'Responsable equipo de Desarrollo Curricular Ecosistema de Recursos Educativos Digitales ',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: '', //'Darío González',
-          cargo: 'Revisión y Corrección de Estilo',
-          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Corrector de estilo ',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Qiñonez',
+          cargo: 'Asesora Metodológica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -252,30 +249,35 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Yobani Penagos Mora',
+          nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador Web',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Oscar Daniel Espitia Marin',
+          nombre: 'Francisco Javier Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: '', //'Viviana Esperanza Herrera Quiñonez',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Storyboard e Ilustración',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
-        /* {
+        {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Animador y Producción Audiovisual',
+          cargo: 'Producción audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Sebastián Trujillo Afanador',
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Cristian Mauricio Otálora Clavijo',
           cargo: 'Actividad Didáctica',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
-        }, */
+        },
       ],
     },
     {
