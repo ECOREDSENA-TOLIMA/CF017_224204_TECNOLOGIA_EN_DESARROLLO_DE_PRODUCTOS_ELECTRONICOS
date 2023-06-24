@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-tolima.github.io/CF017_224204_TECNOLOGIA_EN_DESARROLLO_DE_PRODUCTOS_ELECTRONICOS/](https://ecoredsena-tolima.github.io/CF017_224204_TECNOLOGIA_EN_DESARROLLO_DE_PRODUCTOS_ELECTRONICOS/)
 
 #
 
