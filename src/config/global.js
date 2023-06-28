@@ -235,7 +235,7 @@ export default {
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Corrector de estilo ',
+          cargo: 'Corrector de Estilo',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
         },
         {
@@ -265,7 +265,7 @@ export default {
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
