@@ -132,14 +132,6 @@ export default {
     {
       tema: 'Relación causa - efecto',
       referencia:
-        'OIT. (s.f.) <em>Análisis de causa raíz: el diagrama de espina de pescado.</em>',
-      tipo: 'Sitio WEB',
-      link:
-        'https://managing-ils-reporting.itcilo.org/es/herramientas/analisis-de-causa-raiz-el-diagrama-de-espina-de-pescado',
-    },
-    {
-      tema: 'Relación causa - efecto',
-      referencia:
         'GEO Tutoriales. (2017). <em>Qué es el Diagrama de Ishikawa o Diagrama de Causa Efecto.</em> Gestión de operaciones. ',
       tipo: 'Sitio WEB',
       link:

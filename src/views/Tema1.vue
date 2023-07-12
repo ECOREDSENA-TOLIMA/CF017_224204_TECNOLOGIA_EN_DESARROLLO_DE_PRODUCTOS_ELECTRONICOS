@@ -136,15 +136,15 @@
             img(src="@/assets/curso/temas/tema1/tema1-12.png", alt="Sistema autodiagnóstico")
             .text.p-lg-5.p-5.p-sm-3
               h4 #[em Sistema autodiagnóstico:]
-              p Esta codificación corresponde a los sistemas que tienen dentro de sí algún tipo de procesador que gestiona un sistema de autodiagnóstico.
+              p.mb-3 Esta codificación corresponde a los sistemas que tienen dentro de sí, algún tipo de procesador que gestiona un sistema de autodiagnóstico.
               p Es común  verlos en los sistemas de control de los electrodomésticos modernos, donde el aparato se autogestiona y autodiagnóstica, brindando al usuario, a través de teléfonos inteligentes o interfaces gráficas, información del estado del sistema; y si hay algún error, también indica en qué subsistema se encuentra, el cual, generalmente, es codificado de tal manera que dependiendo del código se puede hacer un prediagnóstico, que es información valiosa para los centros de servicio técnico.
           .col-lg-6.mb-4.px-2.mx-0.nav-holder.nav-holder-2(data-aos="fade-left")(@mouseover="mostrarIndicador = false")
             .indicador--click(v-if="mostrarIndicador")
             img(src="@/assets/curso/temas/tema1/tema1-13.png", alt="Sistema de numeración")
             .text.p-lg-5.p-5.p-sm-3
               h4 #[em Sistema de numeración:] 
-              p Se tiene la codificación referente a los números de partes de las tarjetas, que componen los sistemas, o de los componentes dentro de las tarjetas. 
-              p Cuando se trata de una tarjeta completa estos números de parte brindan una información certera y muy útil para que en el momento de hacer una reparación, o un cambio de parte, se tenga la certeza de estar teniendo el repuesto correspondiente.
+              p.mb-3 Se tiene la codificación referente a los números de partes de las tarjetas, que componen los sistemas, o de los componentes dentro de las tarjetas. 
+              p.mb-3 Cuando se trata de una tarjeta completa estos números de parte brindan una información certera y muy útil para que en el momento de hacer una reparación, o un cambio de parte, se tenga la certeza de estar teniendo el repuesto correspondiente.
               p Este control de los repuestos a través de los números de parte es fundamental para la gestión de mantenimiento y operación de una empresa, ya que permite un control preciso de sus inventarios, ya sea que estas sean cambiadas en un mantenimiento preventivo o en un mantenimiento correctivo. 
     
     
@@ -186,7 +186,7 @@
           img(src='@/assets/curso/temas/tema1/tema1-14.svg', alt='Causa principal y subcategorías')
       .col-12.mt-4
         p(data-aos="zoom-in") Finalmente, cuando se considere que el diagrama está completo, este se convierte en insumo para futura mejoras en procesos de diseño, producción y mantenimiento.
-        p(data-aos="zoom-in") Aunque no está relacionado directamente con el diagrama de causa efecto, es recomendable establecer un protocolo, en general en el proceso de mantenimiento para llevar así una trazabilidad. De tal manera que, a la hora de aplicar este tipo de diagramas, estos tengan mayor efectividad, Asimismo el protocolo se alimenta de los resultados de la aplicación de estos diagramas, ya que estos orientan al personal técnico para buscar las fallas, entendiendo las causas más comunes.
+        p(data-aos="zoom-in") Aunque no está relacionado directamente con el diagrama de causa efecto, es recomendable establecer un protocolo, en general en el proceso de mantenimiento para llevar así una trazabilidad, de tal manera que, a la hora de aplicar este tipo de diagramas, estos tengan mayor efectividad. Asimismo el protocolo se alimenta de los resultados de la aplicación de estos diagramas, ya que estos orientan al personal técnico para buscar las fallas, entendiendo las causas más comunes.
 
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -200,7 +200,7 @@
             .cajon.color-primario
               .row.justify-content-center.align-items-center.py-0.mt-1
                 .col-12.mt-4.mb-4.px-5
-                  p.mb-lg-0.lg-mb-5 La inspección inicial es una gran aliada a la hora de localizar fallas, permite detectar fallas que a simple vista son perceptibles, detectando síntomas tales como componentes carbonizados cables deteriorados o derretidos, contaminación o suciedad que puede generar problemas de conexión o cortocircuitos bajo condiciones climáticas extremas.
+                  p.mb-lg-0.lg-mb-5 La inspección inicial es una gran aliada a la hora de localizar fallas, permite detectar fallas que a simple vista son perceptibles, detectando síntomas tales como componentes carbonizados, cables deteriorados o derretidos, contaminación o suciedad que puede generar problemas de conexión o cortocircuitos bajo condiciones climáticas extremas.
           .col-12.mt-3(data-aos="fade-up")
             .row.justify-content-center.align-items-center
               .col-sm-2.col-md-2.col-6.px-3

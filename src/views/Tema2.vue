@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/tema2-01.png', alt='Mantenimiento preventivo')
       .col-12
-        p.mb-5(data-aos="fade-left") A lo largo de la evolución de los procesos industriales, el mantenimiento ha tenido avances significativos reduciendo cada vez más la necesidad de hacer mantenimientos correctivos, y haciendo más uso frecuente de mantenimientos preventivos, los cuales en costes de materiales de repuestos mano de obra y tiempo de parada de las plantas son sustancialmente menores, tal como se aprecia en la siguiente figura.
+        p.mb-5(data-aos="fade-left") A lo largo de la evolución de los procesos industriales, el mantenimiento ha tenido avances significativos reduciendo cada vez más la necesidad de hacer mantenimientos correctivos, y haciendo más uso frecuente de mantenimientos preventivos, los cuales en costes de materiales de repuestos, mano de obra y tiempo de parada de las plantas son sustancialmente menores, tal como se aprecia en la siguiente figura.
 
     
     .row.justify-content-center.mt-4.mb-4
@@ -83,7 +83,7 @@
         .row.justify-content-center.align-items-center
           .col-12.px-0
             p(data-aos="fade-right") La contaminación en diferentes ámbitos y ambientes puede generar en los contactos eléctricos de un circuito procesos de sulfatación que afectan eléctricamente, modificando así el correcto funcionamiento de un equipo electrónico; en casos más extremos, esta sulfatación y contaminación de los contactos puede llegar a generar fallas más graves las cuales puedan ocasionar otras dentro del equipo. La limpieza, entonces, debe garantizar que sus contactos estén libres de todos estos contaminantes, además de ser lo suficientemente cuidadosa para no modificar ni la estructura y la química de los componentes de un equipo electrónico. 
-            p(data-aos="fade-right") La limpieza también es importante no solamente al iniciar el proceso de mantenimiento si no después de realizar las respectivas reparaciones, ya que procesos como la soldadura generan contaminantes sobre los packs de los componentes provenientes de las resinas fundentes que pueden generar contactos indeseados, capacitancia, entre otros problemas muy comunes, los cuales pueden llegar a modificar el buen funcionamiento de un equipo.
+            p(data-aos="fade-right") La limpieza también es importante no solamente al iniciar el proceso de mantenimiento si no después de realizar las respectivas reparaciones, ya que procesos como la soldadura generan contaminantes sobre los #[i packs] de los componentes provenientes de las resinas fundentes que pueden generar contactos indeseados, capacitancia, entre otros problemas muy comunes, los cuales pueden llegar a modificar el buen funcionamiento de un equipo.
             p(data-aos="fade-right") A continuación, se presentan algunos productos de limpieza.
 
       .col-lg-5.col-12(data-aos="fade-up")
