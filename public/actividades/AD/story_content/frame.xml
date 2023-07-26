@@ -6,8 +6,6 @@
     <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
     <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
     <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npxnabsnfns00000000001" font="Open Sans" controllayout="npxnabsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabsnfns00000000001" font="Open Sans" controllayout="pxabsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -15,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="AD_CF017" />
+              <option name="title_text" value="Actividad did&amp;#225;ctica2" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -23,7 +21,7 @@
           </option>
           <option name="sidebar_enabled" value="false">
             <options>
-              <option name="sidebarpos" value="right" />
+              <option name="sidebarpos" value="left" />
               <option name="closed" value="true" />
             </options>
           </option>
@@ -220,56 +218,6 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npxnabsnfns00000000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
-      <control name="playbackSpeedControl" enabled="false" />
-      <control name="submit" enabled="true" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pxabsnfns00000000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
-      <control name="playbackSpeedControl" enabled="false" />
-      <control name="submit" enabled="true" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
   </control_layouts>
   <colorschemes>
     <colorscheme name="npnxnanbnsnfns00000000001">
@@ -278,7 +226,7 @@
           <color name="focus_rect">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x9CEB78" alpha="100" stop="0" />
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1037,7 +985,7 @@
           <color name="btn_text_shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x000000" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1058,8 +1006,8 @@
           <color name="btn_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x1F5B3B" alpha="100" stop="0" />
-                <color rgb="0x2F8859" alpha="100" stop="255" />
+                <color rgb="0xFDBC2E" alpha="100" stop="0" />
+                <color rgb="0xFFC000" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
@@ -1074,8 +1022,8 @@
           <color name="btn_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x39A900" alpha="100" stop="0" />
-                <color rgb="0x1C5201" alpha="100" stop="255" />
+                <color rgb="0xF36F21" alpha="100" stop="0" />
+                <color rgb="0xF36F21" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
@@ -1122,16 +1070,16 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x292929" alpha="100" stop="0" />
-                <color rgb="0x292929" alpha="100" stop="255" />
+                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x000000" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x1D1D1D" alpha="100" stop="0" />
-                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x000000" alpha="100" stop="255" />
               </colors>
             </fill>
           </color>
@@ -1380,9 +1328,12 @@
         <slidelink slideid="_player.6g8RcXIVtvA" displaytext="Nuevo Presentación de Microsoft PowerPoint" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6Mkd4z9dFLh" displaytext="p01" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6GgRihkRvOK" displaytext="p01" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6DTfV0vAeIg" displaytext="p01" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6U4etSOAUZk" displaytext="¿Para qué sirve el alcohol isopropílico? " expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6iVPyMUhBaK" displaytext="¿Si no se aplica correctamente el alcohol isopropílico, se puede ocasionar? " expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6W9MQLPFO0l" displaytext="¿Para qué sirve la limpieza con aire comprimido en tarjetas? " expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5mtamC3gLYt" displaytext="¿Qué son los limpiadores de contacto? " expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5xKX1BhQYbX" displaytext="¿Qué lubricantes se recomiendan para el mantenimiento preventivo en equipos electrónicos? " expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5tUx6XH3f4J" displaytext="¿Qué se debe tener en cuenta, para la aplicación de productos de limpieza?  " expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
